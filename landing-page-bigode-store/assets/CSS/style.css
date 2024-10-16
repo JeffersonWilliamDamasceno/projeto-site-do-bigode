@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Lexend", sans-serif;
+}
+
+header {
+    background-image: url(../img/imagemdoheader.svg);
+
+    & .nav {
+            display: flex;
+            justify-content: space-between;
+
+        & ul {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+        }
+    }
+}
+
+.cards {
+
+    display: flex;
+    align-items: center;
+    width: Hug (1, 094px)px;
+    height: Hug (169px)px;
+    gap: 16px;
+
+
+    & .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 199px;
+        height: 199px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 26px;
+        color: #F5F4F9;
+    }
+
+    & .card-strategy {
+        background-image: url(../img/strategy.svg);
+
+    }
+
+    & .card-fds {
+        background-image: url(../img/fds.svg);
+
+    }
+
+    & .card-rpg {
+        background-image: url(../img/rpg.svg);
+
+    }
+
+    & .card-puzzle {
+        background-image: url(../img/puzzle.svg);
+
+    }
+
+    & .card-role-playing {
+        background-image: url(../img/roleplaying.svg);
+
+    }
+
+    & .card-sports {
+        background-image: url(../img/sports.svg);
+
+    }
+}
