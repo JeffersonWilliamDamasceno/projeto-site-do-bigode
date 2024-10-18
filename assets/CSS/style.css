@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Lexend", sans-serif;
+}
+
+header {
+    background-image: url(../img/imagemdoheader.svg);
+
+    & .nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 92px;
+
+        & ul {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+        }
+    }
+
+    & li:first-child a {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+
+    }
+
+    & li a {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        color: #EFEFEFB2;
+
+    }
+
+    & .bnts {
+        width: 196px;
+        height: 38px;
+        gap: 16px;
+
+    }
+
+    & .btns button {
+        width: 90px;
+        height: 38px;
+        padding: 8px 16px;
+        gap: 10px;
+        border-radius: 8px;
+        border: 1px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 21.6px;
+        text-align: center;
+        color: #FFFFFF;
+        background: transparent;
+        border: 1px solid #FFFFFF
+    }
+
+    & .btns button:first-child {
+        background: #3B44F6;
+        color: #FFFFFF;
+        border: none;
+    }
+
+    & .title-cta {
+        width: 438px;
+        height: 279px;
+        top: 197px;
+        left: 95px;
+        gap: 64px;
+    }
+
+    & .title {
+        width: 438px;
+        height: 279px;
+        padding-left: 95px;
+        top: 197px;
+        left: 95px;
+        gap: 64px;
+    }
+
+    & .title h1 {
+        height: 71px;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 71.04px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+    & .title p {
+        width: 417px;
+        height: 68px;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 33.6px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+    .cta-button button {
+        padding: 95px;
+        width: 162px;
+        height: 59px;
+        padding: 16px 32px;
+        gap: 10px;
+        border-radius: 8px;
+        background: #3B44F6;
+
+    }
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    width: Hug (1, 094px)px;
+    height: Hug (169px)px;
+    gap: 16px;
+
+
+    & .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 199px;
+        height: 199px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 26px;
+        color: #F5F4F9;
+    }
+
+    & .card-strategy {
+        background-image: url(../img/strategy.svg);
+
+    }
+
+    & .card-fds {
+        background-image: url(../img/fds.svg);
+
+    }
+
+    & .card-rpg {
+        background-image: url(../img/rpg.svg);
+
+    }
+
+    & .card-puzzle {
+        background-image: url(../img/puzzle.svg);
+
+    }
+
+    & .card-role-playing {
+        background-image: url(../img/roleplaying.svg);
+
+    }
+
+    & .card-sports {
+        background-image: url(../img/sports.svg);
+
+    }
+}
